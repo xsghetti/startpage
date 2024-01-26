@@ -1,7 +1,7 @@
 let currentIndex = localStorage.getItem("currentIndex") || document.currentScript.getAttribute('currentIndex');
 currentIndex = parseInt(currentIndex);
 
-const images = ["cover1.webp", "cover2.webp", "cover3.webp"];
+const images = ["hex.webp", "cover2.webp", "cover3.webp"];
 const colorSets = [
 	{
 		"--text-color": "#c0caf5",
