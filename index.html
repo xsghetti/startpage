@@ -2,62 +2,89 @@
 <html lang="en">
 
 <head>
-	<title>~/xsghetti/home </title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="../src/css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xCrux</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
 </head>
 
 <body>
-	<div id="image" onclick="nextImage()">
-		<img id="carouselImage" src="../src/images/cover1.webp">
-		
-	</div>
-	<div id="text">
-		<div id="greeting"> Sghetti's ~/home 󰣇</div>
-		<div id="date"></div>
-				<div id="links">
-			<div class="urls">
-				<div class="header">~/general </div>
-				<ul>
-					<li><a href="https://google.com">Google</a></li>
-					<li><a href="https://gmail.com">Gmail</a></li>
-					<li><a href="https://youtube.com">YouTube</a></li>
-					<li><a href="https://soundcloud.com">SoundCloud</a></li>
-					
-				</ul>
-			</div>
-			<div class="urls">
-				<div class="header">~/dev </div>
-				<ul>
-					<li><a href="https://aur.archlinux.org/">AUR</a></li>
-					<li><a href="https://github.com/xsghetti">GitHub</a></li>
-					<li><a href="https://github.com/xsghetti/dotfiles">Dotfiles</a></li>
-					<li><a href="https://freecodecamp.com">FreeCodeCamp</a></li>
-					
-				</ul>
-			</div>
-			<div class="urls">
-				<div class="header">~/random  </div>
-				<ul>
-					<li><a href="https://excalidraw.com">Excalidraw</a></li>
-					<li><a href="https://warcraftlogs.com">Warcraft Logs</a></li>
-					<li><a href="https://wago.io">Weak Auras</a></li>
-					<li><a href="https://reddit.com/r/linux_gaming/">r/linux_gaming</a></li>
-				</ul>
-			</div>
-			<div class="urls">
-				<div class="header">~/reddit </div>
-				<ul>
-					<li><a href="https://reddit.com/">reddit</a></li>
-					<li><a href="https://reddit.com/r/unixporn/">r/unixporn</a></li>
-					<li><a href="https://reddit.com/r/hyprland/">r/hyprland</a></li>
-					<li><a href="/test.html">test</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+    <div class="navbar">
+        <a href="/index.html">home</a>
+        <a href="">login</a>
+    </div>   
+    
+    
+    <section class="hidden">
+        <pre class="crux"> 
+             ▄████▄   ██▀███   █    ██ ▒██   ██▒
+            ▒██▀ ▀█  ▓██ ▒ ██▒ ██  ▓██▒▒▒ █ █ ▒░
+            ▒▓█    ▄ ▓██ ░▄█ ▒▓██  ▒██░░░  █   ░
+            ▒▓▓▄ ▄██▒▒██▀▀█▄  ▓▓█  ░██░ ░ █ █ ▒ 
+            ▒ ▓███▀ ░░██▓ ▒██▒▒▒█████▓ ▒██▒ ▒██▒
+            ░ ░▒ ▒  ░░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ▒▒ ░ ░▓ ░
+              ░  ▒     ░▒ ░ ▒░░░▒░ ░ ░ ░░   ░▒ ░
+            ░          ░░   ░  ░░░ ░ ░  ░    ░  
+            ░ ░         ░        ░      ░    ░  
+                                                                  
+        </pre>
+    </section>
+    
+
+
+    <section class="hidden">
+
+        <div id="text">
+            <div id="greeting"> Crux ~/home 󰣇</div>
+            <div id="date"></div>
+                    <div id="links">
+                <div class="urls">
+                    <div class="header">~/general </div>
+                    <ul>
+                        <li><a href="https://gmail.com">Gmail</a></li>
+                        <li><a href="https://google.com">Google</a></li>
+                        <li><a href="https://youtube.com">YouTube</a></li>
+                        <li><a href="https://soundcloud.com">SoundCloud</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="urls">
+                    <div class="header">~/dev </div>
+                    <ul>
+                        <li><a href="https://aur.archlinux.org/">AUR</a></li>
+                        <li><a href="https://github.com/xsghetti">GitHub</a></li>
+                        <li><a href="https://github.com/xsghetti/dotfiles">Dotfiles</a></li>
+                        <li><a href="https://freecodecamp.com">FreeCodeCamp</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="urls">
+                    <div class="header">~/random  </div>
+                    <ul>
+                        <li><a href="https://excalidraw.com">Excalidraw</a></li>
+                        <li><a href="https://warcraftlogs.com">Warcraft Logs</a></li>
+                        <li><a href="https://wago.io">Weak Auras</a></li>
+                        <li><a href="https://reddit.com/r/linux_gaming/">r/linux_gaming</a></li>
+                    </ul>
+                </div>
+                <div class="urls">
+                    <div class="header">~/reddit </div>
+                    <ul>
+                        <li><a href="https://reddit.com/">reddit</a></li>
+                        <li><a href="https://reddit.com/r/unixporn/">r/unixporn</a></li>
+                        <li><a href="https://reddit.com/r/hyprland/">r/hyprland</a></li>
+                        <li><a href="/test.html">test</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 <script async src="../src/js/date.js"></script>
 <script async src="../src/js/theme.js" currentIndex="0"></script>
+
 </html>
+                           
